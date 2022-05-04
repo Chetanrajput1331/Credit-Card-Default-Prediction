@@ -1,10 +1,10 @@
 # Credit-Card-Default-Prediction
 Supervised machine learning (Classification model)
-Credit_card_default_prediction
-Problem Statement
+# Credit_card_default_prediction
+# Problem Statement
 This project is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. We can use the K-S chart to evaluate which customers will default on their credit card payments.
 
-Dataset
+# Dataset
 We used the [Credit Card Default payment in Taiwan] (https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients) to predict whether the credit card holders are defaulters or Non-defaulters. The Dataset and its attributes are described below
 
 ID: ID of each client
@@ -57,7 +57,7 @@ PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
 
 default.payment.next.month: Default payment (1=yes, 0=no)
 
-Conclusion
+# Conclusion
 Majority of the defaulters are those who have credit limit balance between 20,000 to 3,00,000. It might mean that credit card might be too easy to be issued for people who have low credit scores.
 The variance of the default rate for limit balance over 500,000 NTD is higher than other range of limit balance.
 It is lower default rate for cardholders have higher education level. Moreover, the default rate for clients whose age over 60 was higher than mid age and young people.
